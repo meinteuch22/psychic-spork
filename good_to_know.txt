@@ -1,8 +1,11 @@
-git diff :
+- git diff :
 
-zeigt unterschiede zum letzten commit
+  zeigt unterschiede zum letzten commit
 
-git checkout -- <dateiname> :
+- git checkout -- <dateiname> :
 
-verwirft aenderungen in nicht commiteten files zugunsten
-des letzten commits. 
+  verwirft aenderungen in nicht commiteten files zugunsten
+  es letzten commits. aber nur fuer aenderungen, die auch noch
+  nicht gestasht wurden. 
+
+- git status
