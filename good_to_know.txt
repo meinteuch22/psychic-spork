@@ -1,11 +1,25 @@
-- git diff :
+### fragen ###
+
+- commits nachtraeglich veraendern, z.b. aufteilen.
+  wie geht das ?
+
+
+- "git diff", oder "git diff <dateiname>" :
 
   zeigt unterschiede zum letzten commit
 
-- git checkout -- <dateiname> :
+- "git checkout -- <dateiname>" :
 
   verwirft aenderungen in nicht commiteten files zugunsten
   es letzten commits. aber nur fuer aenderungen, die auch noch
   nicht gestasht wurden. 
 
-- git status
+- "git status"
+
+- "git add -u" :
+
+   adds all *tracked* files !
+
+- "git add <file_1> <file_2> ... " :
+  
+   obvious
