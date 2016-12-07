@@ -25,3 +25,4 @@
    obvious
 
 - "git log"
+- "git show <HASH>"
