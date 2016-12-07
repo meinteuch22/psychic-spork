@@ -35,4 +35,10 @@
 - "git init" :
   anlegen eines lokalen repositories.
 
+- github repo anlegen und acccess-token generieren, dann :
 
+  -> git remote add origin2 https://meinteuch22@github.com/meinteuch22/psychic-spork.git
+  dann
+  -> git push -u origin2 master
+  dann
+  -> eingabe des access_tokens
