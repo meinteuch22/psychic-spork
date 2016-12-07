@@ -23,3 +23,5 @@
 - "git add <file_1> <file_2> ... " :
   
    obvious
+
+- "git log"
