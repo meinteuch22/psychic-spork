@@ -3,6 +3,11 @@
 - commits nachtraeglich veraendern, z.b. aufteilen.
   wie geht das ?
 
+- wie kann man probeweise ein "remote" auf seinem lokalen
+  system anlegen.
+
+################################################################
+
 
 - "git diff", oder "git diff <dateiname>" :
 
@@ -26,3 +31,8 @@
 
 - "git log"
 - "git show <HASH>"
+
+- "git init" :
+  anlegen eines lokalen repositories.
+
+
