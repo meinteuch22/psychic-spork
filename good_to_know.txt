@@ -6,6 +6,9 @@
 - wie kann man probeweise ein "remote" auf seinem lokalen
   system anlegen.
 
+- wie gehe ich zurueck zu einem zustand *vor* einem
+  gewissen commit ? 
+
 ################################################################
 
 
@@ -42,3 +45,7 @@
   -> git push -u origin2 master
   dann
   -> eingabe des access_tokens
+
+- "git branch -a" :
+   remote branches sehen.
+   zu beachten : neben einem lokalen master gibt es auch einen remote-master.
