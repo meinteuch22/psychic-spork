@@ -58,3 +58,8 @@
 
 - "git checkout <name_des_branches>"
    in branch hineinwechseln 
+
+- "git checkout -b <branchname> <hashvalue>" :
+   erzeugung eines branches auf basis eines durch einen hashwert benannten commits.
+
+
