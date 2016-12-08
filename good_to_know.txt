@@ -52,3 +52,9 @@
 
 - "git checkout -b new_test_branch" :
    branch anlegen und hineinwechseln
+
+- "git branch <name_des_branches>" :
+   branch anlegen
+
+- "git checkout <name_des_branches>"
+   in branch hineinwechseln 
