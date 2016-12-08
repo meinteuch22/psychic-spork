@@ -49,3 +49,5 @@
 - "git branch -a" :
    remote branches sehen.
    zu beachten : neben einem lokalen master gibt es auch einen remote-master.
+
+
