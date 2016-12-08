@@ -59,4 +59,4 @@
 - "git checkout <name_des_branches>"
    in branch hineinwechseln 
 
-  "zeile aus dem branch . wird kollidieren" 
+  "zeile aus dem branch . wird kollidieren !" 
