@@ -58,5 +58,3 @@
 
 - "git checkout <name_des_branches>"
    in branch hineinwechseln 
-
-- "noch ne zeile im master hinzugefuegt, die kollidieren wird."
