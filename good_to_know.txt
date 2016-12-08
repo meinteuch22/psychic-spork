@@ -50,4 +50,5 @@
    remote branches sehen.
    zu beachten : neben einem lokalen master gibt es auch einen remote-master.
 
-
+- "eine zeile, dem master-branch hinzugefuegt, um verwirrung zu stiften"
+   und noch eine zeile, die wohl mit brancheintraegen kollidiert.
