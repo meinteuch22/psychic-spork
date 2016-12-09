@@ -10,7 +10,6 @@
   gewissen commit ? 
 
 - warum sollte man manchmal ein --no-ff erzwingen ?
-
 ################################################################
 
 
