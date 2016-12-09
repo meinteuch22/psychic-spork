@@ -63,4 +63,26 @@
 - "git checkout -b <branchname> <hashvalue>" :
    erzeugung eines branches auf basis eines durch einen hashwert benannten commits.
 
+- "git merge --no-ff new_feature"
+   auch fast-forward-faehige commits werden ausdruecklich als merge gekennzeichnet. 
 
+- "git push origin :remote_branch"
+   loescht den branch "remote_branch" im remote-repository
+
+- "git merge --abort" :
+   merge (mit konflikten) abbrechen und auf pre-merge-zustand zurücksetzen.
+
+- undoing a stage-operation
+  
+   - "git rm --cached mistake_file" :
+      wurde mistake_file gerade ueber "git add mistake_file" als zu tracken
+      markiert, und ich moechte diese operation rueckgaengig machen.
+
+ 
+     
+
+- undoing a commit
+- undoing a push
+
+
+ 
