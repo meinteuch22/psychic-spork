@@ -9,6 +9,8 @@
 - wie gehe ich zurueck zu einem zustand *vor* einem
   gewissen commit ? 
 
+- warum sollte man manchmal ein --no-ff erzwingen ?
+
 ################################################################
 
 
