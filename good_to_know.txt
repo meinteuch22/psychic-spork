@@ -10,6 +10,10 @@
   gewissen commit ? 
 
 - warum sollte man manchmal ein --no-ff erzwingen ?
+
+- unterschied zwischen reset und revert klar machen !
+
+
 ################################################################
 
 
@@ -104,8 +108,17 @@
   - "git reset --hard HEAD~1" :
      even reverts the changes in the files.
 
+  - es git statt "reset" auch noch "revert".
+    wo ist der unterschied ?
 
 - undoing a push
+
+  - git reset --hard HEAD~2
+    git push -f origin master
+
+#### helfer ###########################################################################
+
+- "git bisect ..."
 
 
  
