@@ -120,5 +120,19 @@
 
 - "git bisect ..."
 
+   bisect kann auch an ein test-script gekoppelt werden !
 
- 
+- "git log --follow index.php" :
+  
+   zeige commits, die sich auf ein file beziehen (u.a.) 
+
+- "git shortlog" :
+   zeigt die nutzer mit ihren commit-kommentaren und anzahlen.
+
+- "git log --grep='redirect'":
+   suche nach dem string "redirect" in den log-messages.
+
+- "git reflog"
+   zeigt alle aenderungen. inkl. loesch-aktionen etc.
+
+
