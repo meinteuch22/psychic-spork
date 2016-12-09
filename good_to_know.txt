@@ -72,16 +72,39 @@
 - "git merge --abort" :
    merge (mit konflikten) abbrechen und auf pre-merge-zustand zurücksetzen.
 
+######################## fehler korrigieren ###########################################
+
+
 - undoing a stage-operation
   
    - "git rm --cached mistake_file" :
       wurde mistake_file gerade ueber "git add mistake_file" als zu tracken
       markiert, und ich moechte diese operation rueckgaengig machen.
+      mistake_file bleibt aber wg. "--cached" im filesystem erhalten.
 
- 
+   - "git reset HEAD myfile2" :
+      wurde myfile2 veraendert und bereits ueber "git add myfile2" in die
+      staging-area versetzt, so kann man dadurch die aenderungen wieder
+      bis zum zustand des heads zuruecknehmen.
+
+    - "git checkout myfile2" :
+      dadurch werden dann auch die aenderungen im file zurueckgesetzt.
+      "... checkout restores the file to its version at the time of the last commit"
      
 
 - undoing a commit
+
+  - "git reset --soft HEAD~1"
+     sofern aenderungen bereits commited wurden : gehe zurueck auf den vorherigen commit.
+     aber lasse die aenderugne in der staging-area bestehen.
+
+  - "git reset --mixed HEAD~1" :
+     unstages the changed files
+
+  - "git reset --hard HEAD~1" :
+     even reverts the changes in the files.
+
+
 - undoing a push
 
 
