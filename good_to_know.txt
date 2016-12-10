@@ -134,5 +134,5 @@
 
 - "git reflog"
    zeigt alle aenderungen. inkl. loesch-aktionen etc.
-
+   ---> rekonstruktion von alten zustaenden ueber git checkout -b branchname hashvalue
 
