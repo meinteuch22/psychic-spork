@@ -136,3 +136,9 @@
    zeigt alle aenderungen. inkl. loesch-aktionen etc.
    ---> rekonstruktion von alten zustaenden ueber git checkout -b branchname hashvalue
 
+- "git rebase -i HEAD~2" :
+  führt die letzten zwei commits zusammen. 
+
+- "git cherry-pick 30dc1fa2d"
+  aenderungen des einen commits in den aktuellen branch uebernehmen.
+
