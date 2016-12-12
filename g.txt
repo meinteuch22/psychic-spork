@@ -2,4 +2,3 @@ dies ist die erste zeile des zweiten files namens g.txt
 dies ist die zweite zeile
 dies ist die dritte zeile (wirklich)
 dies ist die vierte zeile (in wirklichkeit die dritte)
-dies ist die fünfte zeile (in wirklichkeit die vierte)
