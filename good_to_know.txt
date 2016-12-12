@@ -147,3 +147,12 @@
 - "git cherry-pick 30dc1fa2d"
   aenderungen des einen commits in den aktuellen branch uebernehmen.
 
+### commit-historie bearbeiten ###
+
+ - git rebase --interactive HEAD~5 :
+
+   zeigt die letzten 5 revisionen und bietet sie zur bearbeitung an,
+   also zum beispiel "pick", "squash" (einen commit mit einem anderen
+   verschmelzen) oder : loeschung eines commits durch weglassung
+   der entsprechenden zeile. 
+
