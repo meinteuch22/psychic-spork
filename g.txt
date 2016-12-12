@@ -1,0 +1,3 @@
+dies ist die erste zeile des zweiten files namens g.txt
+dies ist die zweite zeile
+dies ist die vierte zeile (in wirklichkeit die dritte)

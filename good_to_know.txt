@@ -116,6 +116,11 @@
   - git reset --hard HEAD~2
     git push -f origin master
 
+- die änderungen eines benannten commits rueckgaengig machen :
+
+   - git revert <hash_des_commits_der_rueckgaengig_gemacht_werden_soll>
+
+
 #### helfer ###########################################################################
 
 - "git bisect ..."
